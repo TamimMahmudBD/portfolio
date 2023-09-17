@@ -16,7 +16,7 @@ const Navbar = () => {
     <div className='flex w-full h-14 shadow-xl z-[100] md:px-14'>
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
         <div>
-          <Image src='/assets/logo.png' alt='/' width='130' className='md:h-[28px] md:w-[120px] h-[25px] w-[100px]' height='20' />
+          <Image src='/assets/logo.png' alt='/' width='130' className=' h-[20px] w-[100px]' height='20' />
         </div>
         <div className='hidden md:flex'>
           <Link href='/'> <li className='ml-10 text-sm uppercase hover:border-b '>Home</li></Link>
@@ -36,7 +36,7 @@ const Navbar = () => {
           <div className=''>
             <div className=' pt-3 flex w-full items-center justify-between'>
               <div>
-                <Image src='/assets/logo.png' alt='/' width='130' className='md:h-[28px] md:w-[100px] h-[20px] w-[80px]' height='20' />
+                <Image src='/assets/logo.png' alt='/' width='100' className='h-[20px] w-[100px]' height='20' />
                 <p className=' text-sm'>Let's buld your dream</p>
               </div>
               <div onClick={handleNav} className='rounded-full shadow-xl shadow-gray p-3 cursor-pointer'>
