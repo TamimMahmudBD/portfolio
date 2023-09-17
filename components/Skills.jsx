@@ -13,7 +13,7 @@ import AWS from '../public/assets/skills/aws.png';
 const Skills = () => {
     return (
         <div id='skills' className='w-full  p-4 '>
-            <div className=' md:px-16 mx-auto flex flex-col justify-center h-full'>
+            <div className=' md:px-14 mx-auto flex flex-col justify-center h-full'>
                 <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
                     Skills
                 </p>

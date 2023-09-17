@@ -7,7 +7,7 @@ const About = () => {
     return (
         <div id='about' className='w-full p-4 flex items-center py-16'>
             <div className='md:px-14 m-auto md:grid grid-cols-3 gap-8'>
-                <div className='hidden md:flex w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl  items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
+                <div className='hidden lg:flex w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl  items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
                     <Image src={AboutImg} className='rounded-xl' alt='/' />
                 </div>
                 <div className='col-span-2'>
@@ -26,7 +26,7 @@ const About = () => {
                         specific language, but choosing the best tool for the job.
                     </p>
                     <p className='py-2 text-gray-600 text-justify'>
-                        I started web developement in 2013 managing multiple e-commerce
+                        I started web developement in 2018 managing multiple e-commerce
                         websites on CMS platforms such as WordPress, BigCommerce, and
                         Shopify. I have experience working directly with clients and taking
                         mock wireframes all the way to deployed applications. In my spare
