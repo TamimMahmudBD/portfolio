@@ -10,16 +10,16 @@ const Main = () => {
     <div id='home' className='w-full md:h-[100vh] text-center md:text-left flex flex-col md:flex-row md:px-14 md:my-24 lg:my-0'>
       <div className='max-w-[1240px]  w-full md:w-3/5 h-full mx-auto p-4 flex justify-center items-center my-24 md:my-0'>
         <div className='pt-6 md:pt-0'>
-          <p className='uppercase text-sm tracking-widest text-gray-600'>
+          <p className='uppercase text-sm tracking-widest '>
             LET&#39;S BUILD SOMETHING TOGETHER
           </p>
           <div className='md:text-[1rem]'>
-            <h1 className='py-4 text-gray-700 md:text-[2rem] lg:text-[2rem] xl:text-[3rem]'>
+            <h1 className='py-4 md:text-[2rem] lg:text-[2rem] xl:text-[3rem]'>
               Hi, I&#39;m <span className='text-[#1488A1]'> Tamim</span>
             </h1>
-            <h1 className='py-2 text-gray-700 md:text-[2rem] lg:text-[2.5rem] xl:text-[3.5rem]'>A Front-End Web Developer</h1>
+            <h1 className='py-2  md:text-[2rem] lg:text-[2.5rem] xl:text-[3.5rem]'>A Front-End Web Developer</h1>
           </div>
-          <p className='py-4 text-gray-600 sm:max-w-[70%] '>
+          <p className='py-4  sm:max-w-[70%] '>
             I’m focused on building responsive front-end web applications
             integrating back-end technologies.
           </p>

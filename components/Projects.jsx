@@ -8,8 +8,8 @@ import cloud from '../public/assets/projects/cloud.png'
 import ProjectItem from './ProjectItem';
 const Projects = () => {
   return (
-    <div id='projects' className='w-full'>
-      <div className='max-w-[1240px] mx-auto px-4 md:px-0 py-16'>
+    <div id='projects' className='w-full md:px-14 xl:px-0'>
+      <div className='max-w-[1240px] mx-auto px-4 xl:px-2 py-16 '>
         <p className='text-xl tracking-widest uppercase text-[#1488A1]'>
           Projects
         </p>
