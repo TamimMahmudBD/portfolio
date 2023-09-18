@@ -6,12 +6,12 @@ import AboutImg from '../public/assets/about.jpg';
 const About = () => {
     return (
         <div id='about' className='w-full p-4 flex items-center py-16'>
-            <div className='md:px-14 m-auto md:grid grid-cols-3 gap-8'>
+            <div className='max-w-[1240px]  m-auto md:grid grid-cols-3 gap-8'>
                 <div className='hidden lg:flex w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl  items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
                     <Image src={AboutImg} className='rounded-xl' alt='/' />
                 </div>
                 <div className='col-span-2'>
-                    <p className='uppercase text-xl tracking-widest text-[#5651e5]'>
+                    <p className='uppercase text-xl tracking-widest text-[#1488A1]'>
                         About
                     </p>
                     <h2 className='py-4'>Who I Am</h2>

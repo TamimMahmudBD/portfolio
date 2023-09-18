@@ -13,8 +13,8 @@ import AWS from '../public/assets/skills/aws.png';
 const Skills = () => {
     return (
         <div id='skills' className='w-full  p-4 '>
-            <div className=' md:px-14 mx-auto flex flex-col justify-center h-full'>
-                <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
+            <div className='max-w-[1240px]  mx-auto flex flex-col justify-center h-full'>
+                <p className='text-xl tracking-widest uppercase text-[#1488A1]'>
                     Skills
                 </p>
                 <h2 className='py-4'>What I Can Do</h2>
