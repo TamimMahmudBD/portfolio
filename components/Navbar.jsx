@@ -42,7 +42,7 @@ const Navbar = () => {
       }>
       <div className='flex justify-between items-center w-full h-full px-2 md:px-16 mt-0 dark:bg-black dark:text-white'>
         <div>
-          <h3 className='cursor-pointer' href="/">TAMIM</h3>
+          <h3 className='cursor-pointer'>TAMIM</h3>
         </div>
         <div  className='hidden md:flex'>
           <Link href='/'> <li className='ml-10 text-sm uppercase hover:border-b '>Home</li></Link>
@@ -62,7 +62,7 @@ const Navbar = () => {
           <div className=''>
             <div className=' pt-3 flex w-full items-center justify-between'>
               <div>
-              <h3 className=' cursor-pointer' href="/">TAMIM</h3>
+              <h3 className=' cursor-pointer' >TAMIM</h3>
                 <p className=' text-sm'>Let's buld your dream</p>
               </div>
               <div  onClick={handleNav} className='rounded-full shadow-xl shadow-gray p-3 cursor-pointer'>
