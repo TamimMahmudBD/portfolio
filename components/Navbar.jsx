@@ -41,11 +41,11 @@ const Navbar = () => {
           <Image src='/assets/logo.png' alt='/' width='130' className=' h-[20px] w-[100px]' height='20' />
         </div>
         <div style={{ color: `${linkColor}` }} className='hidden md:flex'>
-          <Link href='/'> <li className='ml-10 text-sm uppercase hover:border-b '>Home</li></Link>
-          <Link href='/#about'> <li className='ml-10 text-sm uppercase hover:border-b '>About</li></Link>
-          <Link href='/#skills'> <li className='ml-10 text-sm uppercase hover:border-b '>Skills</li></Link>
-          <Link href='/#projects'> <li className='ml-10 text-sm uppercase hover:border-b '>Project</li></Link>
-          <Link href='/#contact'> <li className='ml-10 text-sm uppercase hover:border-b '>Contact</li></Link>
+          <Link href='/'> <li className='ml-10 text-sm uppercase '>Home</li></Link>
+          <Link href='/#about'> <li className='ml-10 text-sm uppercase '>About</li></Link>
+          <Link href='/#skills'> <li className='ml-10 text-sm uppercase '>Skills</li></Link>
+          <Link href='/#projects'> <li className='ml-10 text-sm uppercase '>Project</li></Link>
+          <Link href='/#contact'> <li className='ml-10 text-sm uppercase '>Contact</li></Link>
         </div>
         <div  onClick={handleNav} className='md:hidden rounded-full shadow-xl shadow-gray p-3 cursor-pointer'>
           <AiOutlineMenu />
