@@ -1,10 +1,6 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
-import Navbar from '@/components/Navbar'
-import Main from '@/components/Main'
-import About from '@/components/About'
-import Skills from '@/components/Skills'
-import Projects from '@/components/Projects'
+
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -12,15 +8,11 @@ export const metadata = {
   description: 'Frontend Expart with MERN Stack',
 }
 
-export default function RootLayout() {
+export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
-        <Navbar />
-        <Main/>
-        <About/>
-        <Skills/>
-        <Projects/>
+      <body className={inter.className}>
+        {children}
       </body>
     </html>
   )

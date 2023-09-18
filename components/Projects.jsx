@@ -39,7 +39,7 @@ const Projects = () => {
             title='Cloud Host'
             backgroundImg={cloud}
             projectUrl='https://cloud-project-reactjs-tailwindcss.netlify.app/'
-            tech='Next JS'
+            tech='React JS'
 
           />
         </div>
