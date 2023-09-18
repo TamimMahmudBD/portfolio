@@ -42,10 +42,10 @@ const Navbar = () => {
         </div>
         <div style={{ color: `${linkColor}` }} className='hidden md:flex'>
           <Link href='/'> <li className='ml-10 text-sm uppercase '>Home</li></Link>
-          <Link href='/#about'> <li className='ml-10 text-sm uppercase '>About</li></Link>
-          <Link href='/#skills'> <li className='ml-10 text-sm uppercase '>Skills</li></Link>
-          <Link href='/#projects'> <li className='ml-10 text-sm uppercase '>Project</li></Link>
-          <Link href='/#contact'> <li className='ml-10 text-sm uppercase '>Contact</li></Link>
+          <Link href='/#About'> <li className='ml-10 text-sm uppercase '>About</li></Link>
+          <Link href='/#Skills'> <li className='ml-10 text-sm uppercase '>Skills</li></Link>
+          <Link href='/#Projects'> <li className='ml-10 text-sm uppercase '>Project</li></Link>
+          <Link href='/#Contact'> <li className='ml-10 text-sm uppercase '>Contact</li></Link>
         </div>
         <div  onClick={handleNav} className='md:hidden rounded-full shadow-xl shadow-gray p-3 cursor-pointer'>
           <AiOutlineMenu />
