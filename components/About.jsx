@@ -5,8 +5,8 @@ import AboutImg from '../public/assets/about.jpg';
 
 const About = () => {
     return (
-        <div id='about' className='w-full p-4 flex items-center py-16 md:px-16'>
-            <div className='max-w-[1240px]  m-auto md:grid lg:grid-cols-3 xl:grid-cols-3 gap-8'>
+        <div id='about' className='w-full p-4 flex items-center py-16'>
+            <div className='max-w-[1240px]  m-auto grid md:grid-col-2 lg:grid-cols-3 gap-8'>
                 <div className='hidden lg:flex w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl  items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
                     <Image src={AboutImg} className='rounded-xl' alt='/' />
                 </div>
@@ -15,7 +15,7 @@ const About = () => {
                         About
                     </p>
                     <h2 className='py-4'>Who I Am</h2>
-                    <p className='py-2  text-justify'>
+                    <p className='py-2 text-gray-600 text-justify'>
                         I specialize in building mobile responsive front-end UI applications
                         that connect with API’s and other backend technologies. I’m
                         passionate about learning new technologies and understand there is
@@ -25,7 +25,7 @@ const About = () => {
                         needed. I believe that being a great developer is not using one
                         specific language, but choosing the best tool for the job.
                     </p>
-                    <p className='py-2 text-justify'>
+                    <p className='py-2 text-gray-600 text-justify'>
                         I started web developement in 2018 managing multiple e-commerce
                         websites on CMS platforms such as WordPress, BigCommerce, and
                         Shopify. I have experience working directly with clients and taking
@@ -40,8 +40,8 @@ const About = () => {
                     </Link>
                 </div>
                 <div className='md:hidden  w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-                    <Image src={AboutImg} className='rounded-xl' alt='/' />
-                </div>
+                <Image src={AboutImg} className='rounded-xl' alt='/' />
+            </div>
             </div>
         </div>
     );

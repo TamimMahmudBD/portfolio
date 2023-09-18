@@ -7,9 +7,9 @@ html{
 }
 
 @layer base {
- body{ @apply  tracking-wide
+ body{ @apply bg-[#ecf0f3] text-[#1f2937] tracking-wide
  }
- h1, h2, h3, h4, h5, h6{
+ h1, h2, h3, h4, h5, h66{
   @apply font-bold
  }
  h1{
@@ -22,16 +22,6 @@ html{
   @apply cursor-pointer list-none
  }
  button{
-  @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#1488A1] to-[#709dffb7] text-white
+  @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white
  }
-}
-
-
-.light{
-  background-color: #ECF0F3;
-  color: #111;
-}
-.dark{
-  background-color: #111;
-  color: #ECF0F3;
 }

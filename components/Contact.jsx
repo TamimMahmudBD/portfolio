@@ -10,7 +10,7 @@ import ContactImg from '../public/assets/contact.jpg';
 const Contact = () => {
     return (
         <div id='contact' className='w-full '>
-            <div className='max-w-[1240px] m-auto px-2 py-16 w-full md:px-16 xl:px-2'>
+            <div className='max-w-[1240px] m-auto px-2 py-16 w-full '>
                 <p className='text-xl tracking-widest uppercase text-[#1488A1]'>
                     Contact
                 </p>
