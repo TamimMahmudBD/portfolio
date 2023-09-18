@@ -41,7 +41,7 @@ const Navbar = () => {
           <Image src='/assets/logo.png' alt='/' width='130' className=' h-[20px] w-[100px]' height='20' />
         </div>
         <div style={{ color: `${linkColor}` }} className='hidden md:flex'>
-          <Link href='/'> <li className='ml-10 text-sm uppercase '>Home</li></Link>
+          <Link href='/' scroll={false}> <li className='ml-10 text-sm uppercase '>Home</li></Link>
           <Link href='/#About'> <li className='ml-10 text-sm uppercase '>About</li></Link>
           <Link href='/#Skills'> <li className='ml-10 text-sm uppercase '>Skills</li></Link>
           <Link href='/#Projects'> <li className='ml-10 text-sm uppercase '>Project</li></Link>
