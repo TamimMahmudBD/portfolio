@@ -9,9 +9,11 @@ export const metadata = {
   description: 'Frontend Expart with MERN Stack',
 }
 
+{/*class="dark" its html tag need for dark mode*/}
+
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" class="dark">
+    <html lang="en" >
       <body className={inter.className}>
       {/*<ThemeProvider enableSystem={true} attribute='class'>
   </ThemeProvider>*/}

@@ -42,7 +42,7 @@ const Navbar = () => {
       }>
       <div className='flex justify-between items-center w-full h-full px-2 md:px-16 mt-0 dark:bg-black dark:text-white'>
         <div>
-          <h3 className='cursor-pointer'>TAMIM</h3>
+          <h3 className='cursor-pointer px-2'>TAMIM</h3>
         </div>
         <div  className='hidden md:flex'>
           <Link href='/'> <li className='ml-10 text-sm uppercase hover:border-b '>Home</li></Link>
