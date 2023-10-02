@@ -33,16 +33,16 @@ const Navbar = () => {
     <div style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
-          ? 'xl:fixed w-full mt-0 h-16 shadow-xl z-[100] ease-in-out duration-300 '
-          : 'xl:fixed w-full h-16 z-[100]'
+          ? ' w-full mt-0 h-16 shadow-xl z-[100] ease-in-out duration-300 '
+          : ' w-full h-16 z-[100]'
       }>
       <div className='flex justify-between items-center w-full h-full px-2 md:px-16 mt-0'>
         <div>
           <Image src='/assets/logo.png' alt='/' width='130' className=' h-[20px] w-[100px]' height='20' />
         </div>
         <div style={{ color: `${linkColor}` }} className='hidden md:flex'>
-          <Link href='/' scroll={false}> <li className='ml-10 text-sm uppercase '>Home</li></Link>
-          <Link href='/#About'> <li className='ml-10 text-sm uppercase '>About</li></Link>
+          <Link href='/'> <li className='ml-10 text-sm uppercase '>Home</li></Link>
+          <Link href='/#About' target='_blank'> <li className='ml-10 text-sm uppercase '>About</li></Link>
           <Link href='/#Skills'> <li className='ml-10 text-sm uppercase '>Skills</li></Link>
           <Link href='/#Projects'> <li className='ml-10 text-sm uppercase '>Project</li></Link>
           <Link href='/#Contact'> <li className='ml-10 text-sm uppercase '>Contact</li></Link>
@@ -70,10 +70,10 @@ const Navbar = () => {
           <div className='py-4'>
             <ul className='capitalize'>
               <Link  href='/'><li  onClick={() => setNav(false)} className='py-4 text-sm'>Home</li></Link>
-              <Link href='/#about'><li  onClick={() => setNav(false)} className='py-4 text-sm'>About</li></Link>
-              <Link href='/#skills'><li  onClick={() => setNav(false)} className='py-4 text-sm'>Skills</li></Link>
-              <Link href='/#projects'><li  onClick={() => setNav(false)} className='py-4 text-sm'>Project</li></Link>
-              <Link href='/#contact'><li  onClick={() => setNav(false)} className='py-4 text-sm'>Contact</li></Link>
+              <Link href='/#About'><li  onClick={() => setNav(false)} className='py-4 text-sm'>About</li></Link>
+              <Link href='/#Skills'><li  onClick={() => setNav(false)} className='py-4 text-sm'>Skills</li></Link>
+              <Link href='/#Projects'><li  onClick={() => setNav(false)} className='py-4 text-sm'>Project</li></Link>
+              <Link href='/#Contact'><li  onClick={() => setNav(false)} className='py-4 text-sm'>Contact</li></Link>
             </ul>
             <div className='pt-10 uppercase tracking-widest text-[#0f0f0ffa]'>
               <p>Let's Connect</p>
